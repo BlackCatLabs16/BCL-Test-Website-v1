@@ -17,7 +17,7 @@ const services = [
     icon: Zap,
     title: "Laser Marking",
     description: "Fine detail marking on metals and plastics using MOPA fiber laser technology. Permanent, precise, and professional.",
-    image: "https://images.unsplash.com/photo-1565034946487-077786996e27?auto=format&fit=crop&w=800&h=600"
+    image: "/1AAF29F9-D2B6-4391-B276-26E41FBED3EA.jpeg"
   },
   {
     icon: Printer,
