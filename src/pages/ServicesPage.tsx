@@ -5,7 +5,7 @@ const services = [
     icon: Layers,
     title: "Laser Cutting",
     description: "Precision cutting for metals and non-metals using Fiber and CO2 lasers. Perfect for intricate designs and rapid prototyping.",
-    image: "/src/assets/image-asset-laser1.jpeg"
+    image: "public/image-asset-laser1.jpeg"
   },
   {
     icon: Wrench,
