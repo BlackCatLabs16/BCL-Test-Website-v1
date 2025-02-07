@@ -20,7 +20,7 @@ const features = [
 ];
 
 const clients = [
-  { name: "MIT", logo: "public/BnW-MIT-logo.png" }, //test:updated logo to transparent
+  { name: "MIT", logo: "/public/BnW-MIT-logo.png" }, //test:updated logo to transparent
   { name: "ETH Zürich", logo: "https://images.unsplash.com/photo-1580942231868-de1cf7f14c25?auto=format&fit=crop&w=150&h=150" },
   { name: "Puma", logo: "https://images.unsplash.com/photo-1580942231868-de1cf7f14c25?auto=format&fit=crop&w=150&h=150" },
   { name: "Reebok", logo: "https://images.unsplash.com/photo-1580942231868-de1cf7f14c25?auto=format&fit=crop&w=150&h=150" }
