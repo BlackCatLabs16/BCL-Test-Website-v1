@@ -32,7 +32,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center">
                 <Phone className="h-4 w-4 mr-2" />
-                (555) 123-4567
+                (857) 995-9926
               </li>
               <li className="flex items-center">
                 <MapPin className="h-4 w-4 mr-2" />
@@ -45,7 +45,7 @@ export default function Footer() {
             <h3 className="font-bold text-lg mb-4">Hours</h3>
             <ul className="space-y-2 text-zinc-400">
               <li>Monday - Friday</li>
-              <li>9:00 AM - 6:00 PM EST</li>
+              <li>9:00 AM - 5:00 PM EST</li>
             </ul>
           </div>
         </div>
