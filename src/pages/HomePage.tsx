@@ -22,8 +22,8 @@ const features = [
 const clients = [
   { name: "MIT", logo: "/BnW-MIT-logo.png" }, //logo not appearing | test: updated MIT logo to transparent
   { name: "ETH Zürich", logo: "/ETH Zurich logo.png" }, //updated logo (transparent)
-  { name: "Puma", logo: "https://images.unsplash.com/photo-1580942231868-de1cf7f14c25?auto=format&fit=crop&w=150&h=150" },
-  { name: "Reebok", logo: "https://images.unsplash.com/photo-1580942231868-de1cf7f14c25?auto=format&fit=crop&w=150&h=150" }
+  { name: "Puma", logo: "/Puma-logo.png" },
+  { name: "Reebok", logo: "/reebok-logo-png.png" }
 ];
 
 export default function HomePage() {
