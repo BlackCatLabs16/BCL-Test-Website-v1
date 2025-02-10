@@ -20,11 +20,11 @@ const features = [
 ];
 
 const clients = [
-  { name: "MIT", logo: "/BnW-MIT-logo.png" }, //logo not appearing | test: updated MIT logo to transparent
-  { name: "ETH Zürich", logo: "/ETH Zurich logo.png" }, //updated logo (transparent)
+  { name: "MIT", logo: "/BnW-MIT-logo.png" },
+  { name: "ETH Zürich", logo: "/ETH Zurich logo.png" }, 
   { name: "Puma", logo: "/Puma-logo.png" },
   { name: "Reebok", logo: "/reebok-logo-png.png" }
-];
+]; //  Logos needs udjusting
 
 export default function HomePage() {
   return (
