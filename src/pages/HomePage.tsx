@@ -24,7 +24,7 @@ const clients = [
   { name: "ETH Zürich", logo: "/ETH Zurich logo.png" }, 
   { name: "Puma", logo: "/Puma-logo.png" },
   { name: "Reebok", logo: "/reebok-logo-png.png" }
-]; //  Logos needs udjusting
+]; //  Logos needs adjusting
 
 export default function HomePage() {
   return (
