@@ -6,7 +6,7 @@ export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="fixed w-full z-50 bg-white/90 backdrop-blur-sm border-b border-zinc-200">
+    <nav className="fixed w-full z-50 bg-white/80 backdrop-blur-sm border-b border-zinc-200">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
