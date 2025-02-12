@@ -22,13 +22,13 @@ export default function Navigation() {
           <div className="hidden md:flex items-center space-x-8">
             <Link 
               to="/" 
-              className="text-zinc-800 hover:text-zinc-900 transition-colors"
+              className="text-zinc-900 hover:text-zinc-900 transition-colors"
             >
               Home
             </Link>
             <Link 
               to="/services" 
-              className="text-zinc-800 hover:text-zinc-900 transition-colors"
+              className="text-zinc-900 hover:text-zinc-900 transition-colors"
             >
               Services
             </Link>
@@ -54,14 +54,14 @@ export default function Navigation() {
           <div className="md:hidden py-4">
             <Link 
               to="/" 
-              className="block py-2 text-zinc-800 hover:text-zinc-900 transition-colors"
+              className="block py-2 text-zinc-900 hover:text-zinc-900 transition-colors"
               onClick={() => setIsOpen(false)}
             >
               Home
             </Link>
             <Link 
               to="/services" 
-              className="block py-2 text-zinc-800 hover:text-zinc-900 transition-colors"
+              className="block py-2 text-zinc-900 hover:text-zinc-900 transition-colors"
               onClick={() => setIsOpen(false)}
             >
               Services
