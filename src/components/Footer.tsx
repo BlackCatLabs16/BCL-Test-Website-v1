@@ -28,7 +28,7 @@ export default function Footer() {
             <ul className="space-y-2 text-zinc-400">
               <li className="flex items-center">
                 <Mail className="h-4 w-4 mr-2" />
-                info@blackcatlabs.com
+                meow@blackcatlabs.xyz
               </li>
               <li className="flex items-center">
                 <Phone className="h-4 w-4 mr-2" />
@@ -36,7 +36,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center">
                 <MapPin className="h-4 w-4 mr-2" />
-                Boston, MA
+                Black Cat Labs, 47B Webster Avenue, Somerville, MA, 02143, United States
               </li>
             </ul>
           </div>
