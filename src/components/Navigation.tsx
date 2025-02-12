@@ -22,9 +22,10 @@ export default function Navigation() {
           <div className="hidden md:flex items-center space-x-8">
             <Link 
               to="/" 
-              className="text-zinc-900 hover:text-zinc-900 transition-colors"
+              className="relative text-zinc-900 bg-clip-text hover:bg-gradient-to-r from-[#ec5ba2] via-[#ed9395] to-[#9889c0] hover:text-transparent transition-all duration-300 group"
             >
               Home
+              <span className="absolute left-0 -bottom-1 h-0.5 w-0 bg-gradient-to-r from-[#ec5ba2] to-[#9889c0] transition-all duration-300 group-hover:w-full"></span>
             </Link>
             <Link 
               to="/services" 
