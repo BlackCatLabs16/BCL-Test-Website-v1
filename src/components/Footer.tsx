@@ -37,7 +37,7 @@ export default function Footer() {
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-2 shrink-0" /> {/* Added shrink-0 */}
                 <div className="min-w-0">
-                  Black Cat Labs,>br />
+                  Black Cat Labs,<br />
                   47B Webster Avenue<br />
                   Somerville, MA 02143, US<br />
                 </div>
