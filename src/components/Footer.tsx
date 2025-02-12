@@ -23,20 +23,19 @@ export default function Footer() {
             </ul>
           </div>
           
-          </div>
-          <div className="text-center">
+           <div>
             <h3 className="font-bold text-lg mb-4">Contact</h3>
             <ul className="space-y-2 text-zinc-400">
-              <li className="flex items-center mr-4">
-                <Mail className="h-5 w-5 mr-2" />
+              <li className="flex items-center">
+                <Mail className="h-4 w-4 mr-2" />
                 meow@blackcatlabs.xyz
               </li>
-              <li className="flex items-center mr-4">
-                <Phone className="h-5 w-5 mr-2" />
+              <li className="flex items-center">
+                <Phone className="h-4 w-4 mr-2" />
                 (857) 995-9926
               </li>
-              <li className="flex items-center text-justify">
-                <MapPin className="h-5 w-5 mr-2" />
+              <li className="flex items-center">
+                <MapPin className="h-4 w-4 mr-2" />
                 Black Cat Labs, 47B Webster Avenue, Somerville, MA, 02143, US
               </li>
             </ul>
