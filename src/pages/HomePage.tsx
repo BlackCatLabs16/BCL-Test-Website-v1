@@ -103,20 +103,22 @@ export default function HomePage() {
       {/* Clients Section */}
       <div className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Trusted By Industry Leaders</h2>
+          <h2 className="text-3xl font-bold text-center mb-16">Trusted By Industry Leaders</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center">
             {clients.map((client, index) => (
-              <div key={index} className="flex items-center justify-center">
+              <div 
+                key={index} 
+                className="flex items-center justify-center h-32 p-4" // Fixed height and padding
+              >
                 <img
                   src={client.logo}
                   alt={client.name}
-                  className="h-12 object-contain filter grayscale hover:grayscale-0 transition-all"
+                  className="max-h-20 w-full object-contain grayscale hover:grayscale-0 
+                            transition-all duration-300 hover:scale-105"
+                  style={{ maxWidth: '200px' }} // Additional max-width safeguard
                 />
               </div>
             ))}
           </div>
         </div>
       </div>
-    </div>
-  );
-}
