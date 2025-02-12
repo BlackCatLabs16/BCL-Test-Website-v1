@@ -36,7 +36,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center">
                 <MapPin className="h-4 w-4 mr-2" />
-                Black Cat Labs, 47B Webster Avenue, Somerville, MA, 02143, United States
+                47B Webster Avenue, Somerville, MA, 02143, US
               </li>
             </ul>
           </div>
