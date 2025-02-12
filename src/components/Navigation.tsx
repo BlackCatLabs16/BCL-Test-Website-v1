@@ -20,8 +20,18 @@ export default function Navigation() {
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <Link to="/" className="text-zinc-600 hover:text-zinc-900">Home</Link>
-            <Link to="/services" className="text-zinc-600 hover:text-zinc-900">Services</Link>
+            <Link 
+              to="/" 
+              className="text-zinc-800 hover:text-zinc-900 transition-colors"
+            >
+              Home
+            </Link>
+            <Link 
+              to="/services" 
+              className="text-zinc-800 hover:text-zinc-900 transition-colors"
+            >
+              Services
+            </Link>
             <Link 
               to="/quote"
               className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
@@ -44,21 +54,21 @@ export default function Navigation() {
           <div className="md:hidden py-4">
             <Link 
               to="/" 
-              className="block py-2 text-zinc-600 hover:text-zinc-900"
+              className="block py-2 text-zinc-800 hover:text-zinc-900 transition-colors"
               onClick={() => setIsOpen(false)}
             >
               Home
             </Link>
             <Link 
               to="/services" 
-              className="block py-2 text-zinc-600 hover:text-zinc-900"
+              className="block py-2 text-zinc-800 hover:text-zinc-900 transition-colors"
               onClick={() => setIsOpen(false)}
             >
               Services
             </Link>
             <Link 
               to="/quote"
-              className="block py-2 text-zinc-600 hover:text-zinc-900"
+              className="block py-2 px-4 bg-blue-600 text-white rounded-lg mt-2 w-fit hover:bg-blue-700 transition-colors"
               onClick={() => setIsOpen(false)}
             >
               Get a Quote
