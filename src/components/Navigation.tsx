@@ -9,7 +9,14 @@ export default function Navigation() {
     <nav className="fixed w-full z-50 bg-white/90 backdrop-blur-sm border-b border-zinc-200">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
-          <Link to="/" className="font-bold text-xl">Black Cat Labs</Link>
+          {/* Logo */}
+          <Link to="/" className="flex items-center">
+            <img 
+              src="/BCL logo - Two Line Text - Border outline - Transparent BG.png"
+              alt="Black Cat Labs Logo"
+              className="h-10 md:h-12 object-contain hover:opacity-80 transition-opacity"
+            />
+          </Link>
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
