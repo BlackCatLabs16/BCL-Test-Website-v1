@@ -108,14 +108,14 @@ export default function HomePage() {
             {clients.map((client, index) => (
               <div 
                 key={index} 
-                className="flex items-center justify-center h-32 p-4" // Fixed height and padding
+                className="flex items-center justify-center h-32 p-4"
               >
                 <img
                   src={client.logo}
                   alt={client.name}
                   className="max-h-20 w-full object-contain grayscale hover:grayscale-0 
                             transition-all duration-300 hover:scale-105"
-                  style={{ maxWidth: '200px' }} // Additional max-width safeguard
+                  style={{ maxWidth: '200px' }}
                 />
               </div>
             ))}
